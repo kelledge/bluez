@@ -22,9 +22,7 @@ lib/udev/rules.d/97-hid2hci.rules
 attrib/gatttool usr/bin
 debian/50-bluetooth-hci-auto-poweron.rules lib/udev/rules.d
 #-- for systemd
-lib/systemd/system/bluetooth.service
 etc/dbus-1/system.d/bluetooth.conf
-usr/share/dbus-1/system-services/org.bluez.service
 usr/share/man/man1/sdptool.1
 usr/share/man/man1/bccmd.1
 usr/share/man/man1/hciattach.1
